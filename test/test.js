@@ -29,7 +29,7 @@ describe('KhoaiJS - ContentManager', function () {
                 cb();
             }
         });
-        it('Static property of KhoaiJS and standalone object of PreOptions must be same', function (cb) {
+        it('Static property of KhoaiJS and standalone object of ContentManager must be same', function (cb) {
             if (window.hasOwnProperty('Khoai')) {
                 chai_assert.strictEqual(Khoai.ContentManager, ContentManager);
                 cb();
