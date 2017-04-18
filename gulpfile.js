@@ -4,8 +4,8 @@ var gulp = require('gulp'),
     sourcemaps = require("gulp-sourcemaps");
 
 
-gulp.task('khoaijs-pre-options', function () {
-    return gulp.src('pre_options.js')
+gulp.task('khoaijs-content-manager', function () {
+    return gulp.src('content_manager.js')
         .pipe(sourcemaps.init())
         .pipe(rename({suffix: '.min'}))
         .pipe(uglify())
@@ -14,4 +14,4 @@ gulp.task('khoaijs-pre-options', function () {
 });
 
 
-gulp.task('default', ['khoaijs-pre-options']);
+gulp.task('default', ['khoaijs-content-manager']);

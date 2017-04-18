@@ -1,7 +1,7 @@
 {
   "name": "khoaijs-content-manager",
   "description": "Store data by key and data type. Support add, check exists, get and delete",
-  "main": "flag.js",
+  "main": "content_manager.js",
   "authors": [
     "MaDnh <dodanhmanh@gmail.com>"
   ],
